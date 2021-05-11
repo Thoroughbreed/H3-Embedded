@@ -15,24 +15,7 @@ De to dioder er defineret til at grøn er på pin 5, og rød er på pin 7.
 
 ---
 ### Flowchart:
-```mermaid
-graph
-A[Find skudår]
-A --> B(Modtag årstal)
-B --> C{Er året deleligt med 4?}
-C --> D[Nej]
-D --> d[Ikke skudår]
-C --> E[Ja]
-E --> F{Er det deleligt med 100?}
-G --> g{Er det deleligt med 400?}
-F --> G[Ja]
-F --> H[Nej]
-H --> h[Det er skudår!]
-g --> I[Ja]
-I --> h
-g --> J[Nej]
-J --> d
-```
+![flowchart](Skudaar_FC.png)
 ---
 ### Tools:
 - Microchip Studio 7 
