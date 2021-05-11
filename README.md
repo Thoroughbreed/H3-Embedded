@@ -1,15 +1,5 @@
 # Arduino Skudår
 
-introduction
-hardware
-opsætning
-biblioteker
-flowchart
-diagrammer
-tools
-deployment
-kontakt info
-
 
 ### Programmets intro:
 Meningen med programmet er at finde ud af hvorfor et givent år er et skudår eller ej.
