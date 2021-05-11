@@ -15,7 +15,7 @@ De to dioder er defineret til at grøn er på pin 5, og rød er på pin 7.
 
 ---
 ### Flowchart:
-![flowchart](Skudaar_FC.png)
+![flowchart](Skudaar_FC_W.png)
 ---
 ### Tools:
 - Microchip Studio 7 
