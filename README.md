@@ -26,7 +26,7 @@ De to dioder er defineret til at grøn er på pin 5, og rød er på pin 7.
 ---
 ### Flowchart:
 ```mermaid
-graph LR
+graph
 A[Find skudår]
 A --> B(Modtag årstal)
 B --> C{Er året deleligt med 4?}
