@@ -18,17 +18,31 @@ void setup() {
 
 void loop() {
 	bool KnapOn = digitalRead(KNAP);
-	if (KnapOn != SidsteKnap) {
+	if (KnapOn != SidsteKnap) 
+	{
 		lastDebounce = millis();
 	}
-	if ((millis() - lastDebounce) > debounceDelay) {
-		if (KnapOn != KnapState) {
+	if ((millis() - lastDebounce) > debounceDelay) 
+	{
+		if (KnapOn != KnapState)
+		 {
 			KnapState = KnapOn;
-			if (KnapState == 1) LedOn = !LedOn;
+			if (KnapState == 1) 
+			{
+				LedOn = !LedOn;
+				Serial.print("Dioden er ");
+				if (LedOn) 
+				{
+					Serial.println("taendt.");
+				}
+				else 
+				{
+					Serial.println("slukket.");
+				}
+			}
 		}
 	}
 	
 	digitalWrite(LED, LedOn);
-	SidsteKnap = KnapOn;
-	
+	SidsteKnap = KnapOn;	
 }
